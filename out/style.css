@@ -1,0 +1,119 @@
+*:not(a) {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAA
+}
+
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+}
+
+/* MENU */
+.menubox {
+    position: fixed;
+    justify-content: left;
+	padding: 0.5em;
+
+	width: 100%
+}
+
+.menubox > span {
+	color:#6d5dbf;
+
+	font-size: 1.2em;
+	font-family: slkscr;
+	margin-right: 0.5em;
+	padding: 0.1em;
+
+	border-color: #6d5dbf;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.menubox > span > * {
+	color: inherit;
+	font-family: inherit;
+
+	text-decoration: none;
+}
+
+.menubox > span > a:hover {
+	text-decoration: underline;
+}
+
+body {
+	width: 100%;
+	min-height: 100%;
+}
+
+div.content {
+	top: 2.5em;
+	position: relative;
+
+	width: 100%;
+}
+
+.entrybox {
+    position: relative;
+    top:   0.5em;
+    max-width: 50em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+    border: #6d5dbf;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.entrybox:hover {
+	background-color: #6d5dbf33;
+}
+
+.entrybox > h1 > a {
+	text-decoration: none;
+}
+
+.entrybox > h1 {
+	font-family: slkscr;
+
+	border-bottom: solid 2px #AAA;
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	position: relative;
+	top: 4em;
+	text-align: center;
+}
+.footer > a.text {
+	position: relative;
+	padding: 0.2em;
+	font-size: 0.7em;
+}
+
+.footer > a.text {
+	font-size: 0.7em;
+}
+
+code {
+	font-family: hack;
+	background: #333;
+	border-radius: 5px;
+	padding: .05em;
+}
+
+@font-face {
+    font-family: slkscr;
+    src: url( slkscr.ttf );
+}
+
+@font-face {
+    font-family: hack;
+    src: url( hack.ttf );
+}
