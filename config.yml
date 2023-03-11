@@ -1,0 +1,3 @@
+templates: templates/
+output: out/
+input: src/
