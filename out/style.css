@@ -74,11 +74,18 @@ div.content {
 	background-color: #6d5dbf33;
 }
 
-.entrybox > h1 > a {
+.entrybox > h1 > a,
+.entrybox > h2 > a,
+.entrybox > h3 > a,
+.entrybox > h4 > a,
+.entrybox > h5 > a,
+ {
 	text-decoration: none;
 }
 
-.entrybox > h1 {
+.entrybox > h1,
+.entrybox > h2,
+.entrybox > h3 {
 	font-family: slkscr;
 
 	border-bottom: solid 2px #AAA;
