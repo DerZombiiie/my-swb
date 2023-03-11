@@ -1,0 +1,5 @@
+src/*
+out/*
+!out/hack.ttf
+!out/slkscr.ttf
+!out/style.css
